@@ -1,5 +1,5 @@
 ## Albums
-
+<link rel="stylesheet" href="index.css" />
 {% for album in site.data.albums %}
 <article>
     <a href="{{ album.url }}">
