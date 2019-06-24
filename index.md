@@ -1,3 +1,5 @@
-Hello world!<br>
+## Albums
 
-This is a **markdown** file.
+{% for album in site.data.albums %}
+- [{{ album.title }} by {{ album.artist }}]({{ album.url }})
+{% endfor %}
